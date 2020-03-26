@@ -1,0 +1,29 @@
+.header__lang {
+    margin: auto 18px 12px auto;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1;
+    border: solid 1px red;
+}
+.header__lang:hover {
+    text-decoration-line: underline;
+}
+.header__lang:last-of-type {
+    margin-right: 0;
+    margin-left: 0;
+}
+@media screen and (max-width: 425px) {
+    .header__lang {
+        margin-right: 16px;
+        margin-bottom: 7px;
+        font-size: 0.9rem;
+        line-height: 1.125;
+    }
+}
+@media screen and (max-width: 320px) {
+    .header__lang {
+        margin-bottom: 8px;
+    }
+}

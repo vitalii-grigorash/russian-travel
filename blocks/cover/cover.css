@@ -1,0 +1,19 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__overlay/cover__overlay.css);
+@import url(./__link/cover__link.css);
+.cover {
+    max-width: 1184px;
+    margin: 102px auto 0;
+    border: solid 1px red;
+}
+@media screen and (max-width: 425px) {
+    .cover {
+        margin-top: 48px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .cover {
+        margin-top: 64px;
+    }
+}

@@ -1,0 +1,12 @@
+.video__item_bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+@media screen and (max-width: 1190px) {
+    .video__item_bg {
+    height: 100%;    
+    width: auto;
+    }
+}

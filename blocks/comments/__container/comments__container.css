@@ -1,0 +1,19 @@
+.comments__container {
+    display: flex;
+    margin: 72px 0 0;   
+}
+@media screen and (max-width: 768px) {
+    .comments__container {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 425px) {
+    .comments__container {
+        margin-top: 48px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .comments__container {
+        margin-top: 40px;
+    }
+}

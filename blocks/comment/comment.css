@@ -1,0 +1,22 @@
+@import url(./__image/comment__image.css);
+@import url(./__quote/comment__quote.css);
+@import url(./__author/comment__author.css);
+.comment {
+    max-width: 382px;
+}
+.comment:not(:nth-child(3n)){
+    margin-right: 19px;
+}
+@media screen and (max-width: 768px) {
+    .comment {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 48px;    
+    }
+    .comment:last-of-type {
+        margin-bottom: 0;
+    }
+    .comment:not(:nth-child(3n)){
+        margin-right: auto;
+    }
+}

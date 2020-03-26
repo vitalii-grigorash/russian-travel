@@ -1,0 +1,30 @@
+.intro__content-row {
+    max-width: 683px;
+    margin: 48px auto 24px 0;
+    font-weight: normal;
+    font-size: 0.875rem;
+    line-height: 1.7;
+}
+@media screen and (max-width: 1024px) {
+    .intro__content-row {
+        max-width: 692px;
+        font-size: 0.875rem;
+        line-height: 1.7;
+    }
+}
+@media screen and (max-width: 768px) {
+    .intro__content-row {
+        max-width: 720px;
+        font-size: 0.875rem;
+        line-height: 1.7;
+    }
+}
+@media screen and (max-width: 375px) {
+    .intro__content-row {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        max-width: 340px;
+        font-size: 1rem;
+        line-height: 1.68;
+    }
+}

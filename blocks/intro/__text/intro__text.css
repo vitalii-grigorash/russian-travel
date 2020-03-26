@@ -1,0 +1,18 @@
+.intro__text {
+    max-width: 383px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0 auto 0 0;
+    font-weight: bold;
+    font-size: 0.812rem;
+    line-height: 1.5;
+}
+.normal {
+    font-weight: normal;
+}
+@media screen and (max-width: 375px) {
+    .intro__text {
+        font-size: 0.75rem;
+        line-height: 1.6;
+    }
+}
