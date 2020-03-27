@@ -4,10 +4,7 @@
     color: white;
     font-weight: normal;
     font-size: 1.5rem;
-    line-height: 1;;
-}
-.header__lang:hover {
-    text-decoration-line: underline;
+    line-height: 1;
 }
 .header__lang:last-of-type {
     margin-right: 0;
@@ -17,8 +14,8 @@
     .header__lang {
         margin-right: 16px;
         margin-bottom: 7px;
-        font-size: 0.9rem;
-        line-height: 1.125;
+        font-size: 1.125rem;
+        line-height: 0.9;
     }
 }
 @media screen and (max-width: 320px) {

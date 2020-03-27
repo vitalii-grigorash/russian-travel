@@ -5,6 +5,11 @@
     font-size: 4.5rem;
     line-height: 0.9;
 }
+@media screen and (max-width: 1024px) {
+    .place__title {
+        max-width: 440px;
+    }
+}
 @media screen and (max-width: 768px) {
     .place__title {
         max-width: 330px;

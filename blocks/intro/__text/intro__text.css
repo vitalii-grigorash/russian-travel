@@ -7,9 +7,6 @@
     font-size: 0.812rem;
     line-height: 1.5;
 }
-.normal {
-    font-weight: normal;
-}
 @media screen and (max-width: 375px) {
     .intro__text {
         font-size: 0.75rem;

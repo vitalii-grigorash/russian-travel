@@ -1,0 +1,18 @@
+.container__icon-play {
+    margin: 30px 0 0 30px;
+    max-width: 41px;
+    z-index: 1;
+}
+@media screen and (max-width: 768px) {
+    .container__icon-play {
+    margin: 24px 0 0 24px;
+}
+@media screen and (max-width: 425px) {
+    .container__icon-play {
+    margin: 24px 0 0 24px;
+}
+@media screen and (max-width: 320px) {
+    .container__icon-play {
+    margin: 16px 0 0 16px;   
+    }
+}

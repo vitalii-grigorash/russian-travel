@@ -1,0 +1,27 @@
+@import url(./__item/container__item.css);
+@import url(./__duration/container__duration.css);
+@import url(./__icon-play/container__icon-play.css);
+@import url(./__subtitle/container__subtitle.css);
+@import url(./__title/container__title.css);
+@import url(./__overlay/container__overlay.css);
+.container {
+    display: flex;
+    margin: 72px 0 0;
+}
+@media screen and (max-width: 1024px) {
+    .container {
+        margin-top: 73px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: 56px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .container {
+        margin-top: 24px;
+        flex-direction: column;
+        
+    }
+}

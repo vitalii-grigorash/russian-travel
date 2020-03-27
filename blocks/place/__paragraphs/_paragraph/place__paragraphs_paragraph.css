@@ -1,0 +1,8 @@
+.place__paragraphs_paragraph {   
+}
+@media screen and (max-width: 425px) {
+    .place__paragraphs_paragraph {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

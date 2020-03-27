@@ -4,28 +4,18 @@
     font-weight: normal;
     font-size: 1.5rem;
     line-height: 1.7;
-    margin-right: 18px;
-    align-self: center;
-}
-.footer__link:last-of-type {
-    margin-right: 0;
 }
 .footer__link:hover {
-    text-decoration-line: underline;
+    opacity: .7;
 }
 @media screen and (max-width: 880px) {
     .footer__link {
         font-size: 1rem;
-        line-height: 1.7;
+        line-height: 1.3;
     }
 }
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 685px) {
     .footer__link {
         font-size: 1.5rem;
-        line-height: 1.7;
-        margin: 0 auto 0 0;
-    }
-    .footer__link:last-of-type {
-        margin-right: auto;
     }
 }

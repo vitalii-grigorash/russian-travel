@@ -1,5 +1,19 @@
 .place__image {
     max-width: 100%;
     max-height: 100%;
-    grid-row: span 2;   
+}
+@media screen and (max-width: 1024px) {
+    .place__image {
+        max-width: 440px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__image {
+        max-width: 340px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .place__image {
+        max-width: 100%;
+    }
 }

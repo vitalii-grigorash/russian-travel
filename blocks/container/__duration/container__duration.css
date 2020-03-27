@@ -1,0 +1,23 @@
+.container__duration {
+    z-index: 1;
+    margin: auto 0 0 30px;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1.08;
+    letter-spacing: 0.3em;
+}
+@media screen and (max-width: 768px) {
+    .container__duration {
+    margin-left: 24px; 
+    }
+}
+@media screen and (max-width: 425px) {
+    .container__duration {
+    margin-left: 24px;    
+    }
+}
+@media screen and (max-width: 320px) {
+    .container__duration {
+    margin-left: 16px;    
+    }
+}

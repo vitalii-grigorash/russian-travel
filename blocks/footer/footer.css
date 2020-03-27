@@ -1,5 +1,7 @@
-@import url(./__link/footer__link.css);
 @import url(./__nav/footer__nav.css);
+@import url(./__links/footer__links.css);
+@import url(./__link/footer__link.css);
+@import url(./__item/footer__item.css);
 @import url(./__copyright/footer__copyright.css);
 .footer {
     display: flex;
@@ -7,12 +9,19 @@
     max-width: 1184px;
     margin: 160px auto 0;
 }
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin-top: 102px;
+        max-width: 928px;
+    }
+}
 @media screen and (max-width: 768px) {
     .footer {
+        max-width: 720px;
         margin-top: 102px;
     }
 }
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 685px) {
     .footer {
         flex-direction: column;
         margin-top: 64px;

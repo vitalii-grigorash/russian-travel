@@ -1,8 +1,11 @@
 @import url(./__logo/header__logo.css);
 @import url(./__lang/header__lang.css);
+@import url(./__lang/_active/header__lang_active.css);
+@import url(./__lang/_inactive/header__lang_inactive.css);
 .header {
     display: flex;
     max-width: 1184px;
+    justify-content: space-between;
     margin: 0 auto 0;
 }
 @media screen and (max-width: 1024px) {
