@@ -16,7 +16,7 @@
   }
 .container__item:hover .container__overlay{
     background: #000000;
-    opacity: .8;
+    opacity: .7;
 }
 @media screen and (max-width: 1024px) {
     .container__item:not(:nth-child(2n)){

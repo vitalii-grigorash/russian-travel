@@ -9,8 +9,8 @@
     min-height: 594px;
 }
 .cover__link:hover .cover__overlay {
-    background: #000000;
-    opacity: .5;
+    background: #2A2C2F;
+    opacity: .7;
 }
 
 @media screen and (max-width: 1024px) {

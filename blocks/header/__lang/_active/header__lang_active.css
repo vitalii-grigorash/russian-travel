@@ -1,6 +1,3 @@
 .header__lang_active {
-    text-decoration: underline;
-}
-.header__lang_active:hover {
-    opacity: .7;
+    text-decoration-line: underline;
 }

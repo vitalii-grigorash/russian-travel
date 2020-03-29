@@ -1,7 +1,8 @@
 @import url(./__logo/header__logo.css);
+@import url(./__langs/header__langs.css);
 @import url(./__lang/header__lang.css);
+@import url(./__item/header__item.css);
 @import url(./__lang/_active/header__lang_active.css);
-@import url(./__lang/_inactive/header__lang_inactive.css);
 .header {
     display: flex;
     max-width: 1184px;
@@ -18,7 +19,7 @@
         max-width: 720px;
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
     .header {
         max-width: 343px;
     }

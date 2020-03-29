@@ -1,0 +1,11 @@
+.header__item {
+    margin: 0 18px 0 0;
+}
+.header__item:last-of-type {
+    margin-right: 0;
+}
+@media screen and (max-width: 425px) {
+    .header__item {
+        margin-right: 16px;
+    }
+}
