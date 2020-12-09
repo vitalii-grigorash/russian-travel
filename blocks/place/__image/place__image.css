@@ -4,16 +4,17 @@
 }
 @media screen and (max-width: 1024px) {
     .place__image {
-        max-width: 440px;
+        max-width: 440px;    
     }
 }
 @media screen and (max-width: 768px) {
     .place__image {
-        max-width: 340px;
+        max-width: 340px;    
     }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
     .place__image {
+        justify-self: center;
         max-width: 100%;
     }
 }
