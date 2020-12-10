@@ -1,6 +1,5 @@
 .place__image {
     width: 100%;
-    border: 1px solid red;
 }
 @media screen and (max-width: 1024px) {
     .place__image {
